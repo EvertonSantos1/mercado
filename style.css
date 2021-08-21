@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+
+
+* {
+	padding: 0px ; 
+	margin:0px ;
+}
+body {
+	background-color:#008B8B;
+}
+h1 {
+	font-family: 'Public Sans' , sans-serif ;
+	padding: 2px;
+}
+.form {
+	margin-top: 10rem;
+	text-align: center;
+	margin-left: 30rem;
+	border:3px solid white  ;
+	padding: 50px ;
+	box-sizing: border-box;
+	width: 30rem ;
+	border-radius: 10px ;
+	background-color:	#48D1CC;
+
+}
+label {
+	font-family: 'Public Sans', sans-serif;
+
+}
+#name , #password {
+	background: none ;
+	border : none ;
+	border-bottom: 1px solid black ;
+	padding: 8px;
+	margin-top: 10px;
+}
+
+#button {
+	background-color : #00FFFF;
+	font-family: 'Public Sans' , sans-serif ;
+	margin-top: 30px ;
+	padding: 10px ;
+	font-size: 20px;
+	border-radius: 10px ;
+	border:none ;
+	box-shadow: 0.2px 0.1px 0.2px black  ;
+
+}
+#button:hover{
+	background-color: #008B8B ; 
+	transition: all 0.9s ;
+	color:white;
+}
+.link a  {
+	font-family: 'Public Sans' , sans-serif ; 
+	font-size: 20px;
+	text-decoration: none ;
+	
+}
+.link {margin-top: 20px;}
+
+.link a:hover{
+	color:black;
+	text-decoration: underline;
+}
+div.error {
+	color : white ;
+}
